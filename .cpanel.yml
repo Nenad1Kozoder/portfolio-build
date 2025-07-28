@@ -1,11 +1,8 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/nenadkog/portfolio.nenad-kozoder.rs/
+    - export DEPLOYPATH=/home/nenadkog/portfolio/
     - /bin/rm -rf $DEPLOYPATH/*
-<<<<<<< HEAD
     - git clone --depth 1 https://github.com/Nenad1Kozoder/portfolio-build.git /tmp/build
     - /bin/cp -R /tmp/build/* $DEPLOYPATH/
-=======
     - /bin/cp -R * $DEPLOYPATH/
->>>>>>> parent of 5d74f00 (deploy 2025-07-28-11:57:01)
